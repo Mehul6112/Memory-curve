@@ -40,7 +40,7 @@ There are two parts of memory:
       
       Variables cannot be resized.
       
-     Disadvantages:
+    Disadvantages:
       
       Stack memory is very limited.
       
@@ -52,7 +52,7 @@ There are two parts of memory:
       
       The stack will fall outside of the memory area, which might lead to an abnormal termination.
     
-    Heap memory:
+  Heap memory:
       The heap is a memory used by programming languages to store global variables. By default, all global 
       variable are stored in heap memory space. It supports Dynamic memory allocation.The heap is not 
       managed automatically for you and is not as tightly managed by the CPU.
